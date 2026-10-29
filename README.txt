@@ -1,23 +1,17 @@
-CYRUS PORTFOLIO — ROOT FILES
+STUDIO BLOOM — SALON BOOKING DEMO
 
-Upload every file in this ZIP directly to the root of your GitHub repository (not inside a nested folder).
+Contents
+- salon-booking-demo.html: main page
+- salon-booking-demo.css: styling and responsive layout
+- salon-booking-demo.js: demo booking interactions
+- images/: local image assets used by the service cards and hero asset
 
-Main portfolio: index.html
-Portfolio styles/scripts: style.css, script.js
-Project preview images: golden-crust-preview.svg, salon-booking-preview.svg, student-database-preview.svg
-Project 2 demo: salon-booking-demo.html, salon-booking-demo.css, salon-booking-demo.js
-Project 3 database demo: database-demo.html, database-demo.css, database-demo.js
-MySQL practice schema: student_database_schema.sql
+How to run
+1. Extract the ZIP file.
+2. Keep the images folder beside the HTML, CSS, and JS files.
+3. Open salon-booking-demo.html in a modern browser.
 
-PROJECTS
-1. Golden Crust Bakery Website — https://golden-crust-demo.onrender.com/
-2. Salon Booking & Service Management System — included demo page
-3. Student Database Management System (DataDesk) — included demo page and SQL schema
-
-GITHUB PAGES
-1. Extract this ZIP.
-2. Upload all extracted files directly to your repository root.
-3. In Settings > Pages, publish from your main branch and /(root).
-4. Wait for deployment, then refresh with Ctrl+F5.
-
-NOTE: The salon and database demo pages use browser local storage and are front-end demonstrations, not connected to a production database or server. The SQL schema is included for MySQL practice.
+Notes
+- Booking requests are stored in the browser's localStorage only.
+- This is a front-end demo; it does not send appointments to a real salon.
+- The included salon photos are generated visual assets cropped from a generated design reference, not photos of actual clients or a real salon.
